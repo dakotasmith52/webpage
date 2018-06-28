@@ -1,0 +1,28 @@
+Script started on Wed Jun 27 16:15:35 2018
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;dakosmi@8c8590473fa6: ~/projects/webpage]1;..jects/webpage[0m[27m[24m[J[01;36m☁ [01;32m [32mwebpage [01;36m[01;34m [00m[K[?1h=[?2004hppython script.js[1m [0m[0m [?1l>[?2004l
+]2;python script.js]1;python  File "script.js", line 2
+    var json = $.getJSON('https://p848p29pz3.execute-api.us-west-2.amazonaws.com/test/users', function(data){
+           ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;dakosmi@8c8590473fa6: ~/projects/webpage]1;..jects/webpage[0m[27m[24m[J[01;36m☁ [01;32m [32mwebpage [01;36m[01;34m [00m[K[?1h=[?2004hnnode[1m [0m[0m script.js[1m [0m[0m [?1l>[?2004l
+]2;node script.js]1;node/Users/dakosmi/projects/webpage/script.js:2
+var json = $.getJSON('https://p848p29pz3.execute-api.us-west-2.amazonaws.com/test/users', function(data){
+           ^
+
+ReferenceError: $ is not defined
+    at Object.<anonymous> (/Users/dakosmi/projects/webpage/script.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+    at startup (internal/bootstrap/node.js:240:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:564:3)
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;dakosmi@8c8590473fa6: ~/projects/webpage]1;..jects/webpage[0m[27m[24m[J[01;36m☁ [01;32m [32mwebpage [01;36m[01;34m [00m[K[?1h=[?2004hoopen index.html[1m [0m[0m [?1l>[?2004l
+]2;open index.html]1;open[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;dakosmi@8c8590473fa6: ~/projects/webpage]1;..jects/webpage[0m[27m[24m[J[01;36m☁ [01;32m [32mwebpage [01;36m[01;34m [00m[K[?1h=[?2004hppth p python test.py[1m [0m[0m [?1l>[?2004l
+]2;python test.py]1;python  File "test.py", line 6
+    with open(dlfile, 'wb') as code:
+    ^
+IndentationError: unexpected indent
+[1m[7m%[27m[1m[0m                                                                                                                                                                   ]2;dakosmi@8c8590473fa6: ~/projects/webpage]1;..jects/webpage[0m[27m[24m[J[01;36m☁ [01;32m [32mwebpage [01;36m[01;34m [00m[K[?1h=[?2004h
